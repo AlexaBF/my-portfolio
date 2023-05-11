@@ -83,7 +83,7 @@ const Clients = () => {
   return (
     <Container id='client'>
         <Slide direction="left">
-            <span className="green">testimonials</span>
+            <span className="blue">testimonials</span>
             <h1>what clients say</h1>
         </Slide>
         <Testimonials>

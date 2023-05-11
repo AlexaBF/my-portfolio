@@ -1,7 +1,9 @@
 import React from "react";
-import { MdDesignServices } from "react-icons/md";
-import { FiCodesandbox } from "react-icons/fi";
-import { CgWebsite } from "react-icons/cg";
+import { SiCplusplus } from "react-icons/si";
+import { SiPython } from "react-icons/si";
+import { SiUnity } from "react-icons/si";
+import { SiVisualstudiocode } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -11,34 +13,50 @@ const Services = () => {
     <Container id="service">
       <Slide direction="down">
         <h4>
-          My <span className="green">services</span>
+          My <span className="blue">skills</span>
         </h4>
-        <h1>What I Do</h1>
+        <h1>Tools and Languages I've used the most</h1>
       </Slide>
       <Cards>
         <Slide direction="left">
           <Card
-            Icon={MdDesignServices}
+            Icon={SiCplusplus}
             title={"Software Engineer"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
           />
         </Slide>
-        <Slide direction="up">
+        <Slide direction="down">
           <Card
-            Icon={FiCodesandbox}
+            Icon={SiPython}
             title={"graphic designer"}
+            disc={`Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+          />
+        </Slide>
+        <Slide direction="down">
+          <Card
+            Icon={SiUnity}
+            title={"web designer"}
+            disc={`Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+          />
+        </Slide>
+        <Slide direction="down">
+          <Card
+            Icon={SiVisualstudiocode}
+            title={"web designer"}
             disc={`Lorem ipsum dolor sit amet consectetur 
                 adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
           />
         </Slide>
         <Slide direction="right">
           <Card
-            Icon={CgWebsite}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            Icon={SiMysql}
+            title={"MySQL"}
+            disc={'alsdflasdlfalsdf'}
           />
+
         </Slide>
       </Cards>
     </Container>

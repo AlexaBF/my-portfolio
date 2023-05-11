@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { AiOutlineGithub } from "react-icons/ai";
-import { GiEarthAmerica } from "react-icons/gi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
+import Pdf from '../files/CV.pdf';
 
 const ProfComponent = () => {
   return (
@@ -11,9 +11,9 @@ const ProfComponent = () => {
       <Slide direction="left">
         <Texts>
           <h4>
-            Hello <span className="green">My name is</span>
+            Hello <span className="blue">My name is</span>
           </h4>
-          <h1 className="green">Alexa Basurto Flores</h1>
+          <h1 className="blue">Alexa Basurto Flores</h1>
           <h3>Engineer in Computer Science and Technology</h3>
           <p>
             I am pursuing a B.S. in Computer Science and Technology.
@@ -21,20 +21,20 @@ const ProfComponent = () => {
             📚 I’m currently studying at Instituto Tecnológico de Monterrey
             🌱 I’m currently learning about XR technologies
           </p>
-          <button>Let's talk</button>
+          <a href={Pdf} target="_blank" rel="noopener noreferrer">
+            <button>My CV</button>
+          </a>
+          
           <Social>
-            <p>Check out my</p>
+            <p>Check out my : </p>
             <div className="social-icons">
+
               <span>
                 <a href="https://github.com/AlexaBF" target="_blank" rel="noopener noreferrer">
                   <AiOutlineGithub />
                 </a>
               </span>
-              <span>
-                <a href="/">
-                  <GiEarthAmerica />
-                </a>
-              </span>
+
               <span>
                 <a href="https://www.linkedin.com/in/alexa-bf/" target="_blank" rel="noopener noreferrer">
                   <FaLinkedinIn />
@@ -52,7 +52,7 @@ const ProfComponent = () => {
           />
         </Profile>
       </Slide>
-    </Container>
+     </Container>
   );
 };
 

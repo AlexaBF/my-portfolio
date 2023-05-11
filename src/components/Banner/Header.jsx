@@ -1,21 +1,22 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
 
-import { TbLetterB } from "react-icons/tb";
+import { MdHexagon } from "react-icons/md";
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
         <Logo>
-            <span className='blue'><TbLetterB/></span>
+            <span className='blue'><MdHexagon/></span>
             <h1>Portfolio</h1>
         </Logo>
         <Nav bar={bar}>
             <span><a href="#home">Home</a></span>
-            <span><a href="#service">Services</a></span>
+            <span><a href="#service">Skills</a></span>
             <span><a href="#project">Projects</a></span>
-            <span><a href="#client">Testimonials</a></span>
-            <span><a href="#footer">Portfolio</a></span>
+            <span><a href="#client">Education</a></span>
+            <span><a href="#footer">Certificates</a></span>
+            <span><a href="#footer">Contact</a></span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}
