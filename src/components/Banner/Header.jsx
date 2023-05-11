@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import { TbLetterA } from "react-icons/tb";
+
 import { TbLetterB } from "react-icons/tb";
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
         <Logo>
-            <span className='green'><TbLetterA/><TbLetterB/></span>
+            <span className='blue'><TbLetterB/></span>
             <h1>Portfolio</h1>
         </Logo>
         <Nav bar={bar}>
