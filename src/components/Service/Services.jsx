@@ -21,25 +21,22 @@ const Services = () => {
         <Slide direction="left">
           <Card
             Icon={SiCplusplus}
-            title={"Software Engineer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"C++"}
+            disc={`I've used this programming language for 4 years`}
           />
         </Slide>
         <Slide direction="down">
           <Card
             Icon={SiPython}
-            title={"graphic designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Python"}
+            disc={`I've used this programming language for 3 years`}
           />
         </Slide>
         <Slide direction="down">
           <Card
             Icon={SiUnity}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"Unity"}
+            disc={`asdas`}
           />
         </Slide>
         <Slide direction="down">
