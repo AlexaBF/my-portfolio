@@ -2,14 +2,14 @@ import React from 'react'
 import styled from 'styled-components';
 
 const Project = (props) => {
-    const { img, disc } = props.item;
+    const { img, description,disc,viewing } = props.item;
   return (
     <Container className='project'>
         <img src={img} alt="project" />
         <div className="disc">
-            <h1>Description</h1>
+            <h1>{description}</h1>
             <p>{disc}
-            <a href="/">demo</a>
+            <a href={viewing}>view</a>
             </p>
         </div>
     </Container>
