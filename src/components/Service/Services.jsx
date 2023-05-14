@@ -4,6 +4,7 @@ import { SiPython } from "react-icons/si";
 import { SiUnity } from "react-icons/si";
 import { SiVisualstudiocode } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
+import { SiGithub } from "react-icons/si";
 import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
@@ -18,42 +19,47 @@ const Services = () => {
         <h1>Tools and Languages I've used the most</h1>
       </Slide>
       <Cards>
-        <Slide direction="left">
+        <Slide direction="down">
           <Card
             Icon={SiCplusplus}
             title={"C++"}
-            disc={`I've used this programming language for 4 years`}
+            disc={`4+ years`}
           />
         </Slide>
         <Slide direction="down">
           <Card
             Icon={SiPython}
             title={"Python"}
-            disc={`I've used this programming language for 3 years`}
+            disc={`3+ years`}
           />
         </Slide>
         <Slide direction="down">
           <Card
             Icon={SiUnity}
             title={"Unity"}
-            disc={`asdas`}
+            disc={`2+ years`}
           />
         </Slide>
         <Slide direction="down">
           <Card
             Icon={SiVisualstudiocode}
-            title={"web designer"}
-            disc={`Lorem ipsum dolor sit amet consectetur 
-                adipisicing elit. Commodi et asperiores cum exercitationem officia rem amet minus magnam? Cum, voluptatem?`}
+            title={"VSCode"}
+            disc={`4+ years  `}
           />
         </Slide>
-        <Slide direction="right">
+        <Slide direction="down">
           <Card
             Icon={SiMysql}
             title={"MySQL"}
-            disc={'alsdflasdlfalsdf'}
+            disc={'2+ years'}
           />
-
+        </Slide>
+        <Slide direction="down">
+          <Card
+            Icon={SiGithub}
+            title={"Github"}
+            disc={'4+ years'}
+          />
         </Slide>
       </Cards>
     </Container>
