@@ -11,7 +11,7 @@ const Header = () => {
             <h1>Portfolio</h1>
         </Logo>
         <Nav bar={bar}>
-            <span><a href="#home">Hom</a></span>
+            <span><a href="#home">Home</a></span>
             <span><a href="#service">Skills</a></span>
             <span><a href="#project">Projects</a></span>
             <span><a href="#client">Education</a></span>
