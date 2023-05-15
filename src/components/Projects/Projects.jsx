@@ -8,7 +8,7 @@ const Projects = () => {
     <Container id='project'>
         <Zoom>
             <h1>Recent <span className="blue">Projects</span></h1>
-            <p>Some projects i've worked on in the past that standout.</p>
+            <p>Some projects i've worked on in the past that stand out.</p>
         </Zoom>
         <Slide>
             <SliderComp/>
