@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
+import Popup from 'reactjs-popup';
 
 const Project = (props) => {
     const { img, description,disc,viewing } = props.item;
@@ -9,7 +10,15 @@ const Project = (props) => {
         <div className="disc">
             <h1>{description}</h1>
             <p>{disc}
-            <a href={viewing}>view</a>
+            
+            <Popup trigger={<button className="button"> More Info </button>} modal>
+                
+                    <img src={img} alt="project" />
+                    <p>{viewing}</p>
+                
+            </Popup>
+           
+
             </p>
         </div>
     </Container>
@@ -56,6 +65,16 @@ const Container = styled.div`
         }
     }
 
+    .button{
+        background:none;
+        border:none;
+        color:#2272FF;
+        text-decoration:underline;
+        cursor: pointer;
+    }
+
+    
+
     :hover > img{
         transform: scale(1.3);
     }
@@ -63,5 +82,7 @@ const Container = styled.div`
     :hover > .disc{
         bottom: 0;
     }
+
+    
 
 `

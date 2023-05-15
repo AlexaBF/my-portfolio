@@ -7,26 +7,35 @@ import styled from 'styled-components';
 let data = [
     {
         img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        description: "BAMX webpage",
+        disc : "A webpage to digitize and speed up the process of recollection of the food bank in Morelos ",
+        viewing: "sa"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem earum!"
-    },
-    {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
+        description: "Project KAMA-Kart",
+        disc : "Video game where the user interacts with AI serving as a moderator to keep the AI satisfied",
+        viewing: ""
     },
     {
         img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        description: "lala",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
+        description: "BAMX app",
+        disc : "Mobile app for android users to digitize and facilitate the recollection of donated products to the food bank in Morelos.",
         viewing: "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png"
 
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
+        description: "MINSAIT",
+        disc : "Video game that evaluates the soft skills of an eligible candidate for a job in MINSAIT.",
+        viewing: "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png"
+    },
+    {
+        img : "c",
+        description: "Project AMK",
+        disc : "Monitor a plant's humidity, temperature, and sun exposure through a web page.",
+        viewing : "c"
+
     }
 ];
 
@@ -105,7 +114,7 @@ const Buttons = styled.div`
     height: 2rem;
     background-color: rgba(255, 255, 255, 0.100);
     cursor: pointer;
-    color: #01be96;
+    color: #2272FF;
     border: none;
     position: absolute;
     top: 45%;
