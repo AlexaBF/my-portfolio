@@ -14,7 +14,6 @@ const Header = () => {
             <span><a href="#service">Skills</a></span>
             <span><a href="#project">Projects</a></span>
             <span><a href="#client">Education</a></span>
-            <span><a href="#footer">Certificates</a></span>
             <span><a href="#footer">Contact</a></span>
         </Nav>
         <div
