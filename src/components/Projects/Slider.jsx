@@ -114,7 +114,7 @@ const Buttons = styled.div`
     height: 2rem;
     background-color: rgba(255, 255, 255, 0.100);
     cursor: pointer;
-    color: #2272FF;
+    color: #995FA3;
     border: none;
     position: absolute;
     top: 45%;

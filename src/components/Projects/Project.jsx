@@ -10,7 +10,7 @@ const Project = (props) => {
         <div className="disc">
             <h1>{description}</h1>
             <p>{disc}
-            <a  href={viewing} style={{color: '#2272FF'}}>More Info</a>
+            <a  href={viewing} style={{color: '#995FA3'}}>More Info</a>
             </p>
         </div>
     </Container>
@@ -60,7 +60,7 @@ const Container = styled.div`
     .button{
         background:none;
         border:none;
-        color:#2272FF;
+        color:#995FA3;
         text-decoration:underline;
         cursor: pointer;
     }

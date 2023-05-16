@@ -45,7 +45,7 @@ const Header = styled.div`
     justify-content: space-between;
     .quote{
         font-size: 3rem;
-        color: #2272FF;
+        color: #995FA3;
         opacity: 0.7;
     }
 

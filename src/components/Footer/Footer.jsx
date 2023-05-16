@@ -26,7 +26,7 @@ const Footer = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>1030 Southwood Dr San Luis Obispo, California(CA), 93401</p>
+            <p>Morelos, México</p>
           </Slide>
         </div>
         <div className="links">
@@ -38,7 +38,7 @@ const Footer = () => {
               <FiPhoneCall />
             </span>
             <Slide direction="left">
-              <a href="tel:+4733378901">+47 333 78 901</a>
+              <a href="tel:+527771121212">+52 777 112 1212</a>
             </Slide>
           </div>
           <div>
@@ -48,7 +48,7 @@ const Footer = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:miladamiri@gmail.com">miladamiri@gmail.com</a>
+              <a href="mailto:basurto.alexa@gmail.com">basurto.alexa@gmail.com</a>
             </Slide>
           </div>
         </div>
@@ -173,7 +173,7 @@ const Profile = styled.div`
         text-decoration: none;
         color: lightgray;
         :hover {
-          color: orange;
+          color: purple;
         }
       }
     }
@@ -200,7 +200,7 @@ const Profile = styled.div`
         border-radius: 50px;
 
         :hover {
-          background-color: orange;
+          background-color: purple;
         }
 
         a {
@@ -214,7 +214,7 @@ const Profile = styled.div`
 const ArrowUp = styled.div`
   width: 2rem;
   height: 2rem;
-  background-color: #2272FF;
+  background-color: #995FA3;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,13 +270,13 @@ const Form = styled.div`
     button {
       width: 5rem;
       height: 1.8rem;
-      background-color: #2272FF;
+      background-color: #995FA3;
       border: none;
       border-radius: 5px;
-      filter: drop-shadow(0px 4px 5px #2272FF51);
+      filter: drop-shadow(0px 4px 5px #995FA351);
       cursor: pointer;
       :hover {
-        filter: drop-shadow(0px 6px 9px #2272FF51);
+        filter: drop-shadow(0px 6px 9px #995FA351);
       }
     }
   }

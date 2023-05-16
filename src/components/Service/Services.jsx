@@ -14,7 +14,7 @@ const Services = () => {
     <Container id="service">
       <Slide direction="down">
         <h4>
-          My <span className="blue">skills</span>
+          My <span className="purple">skills</span>
         </h4>
         <h1>Tools and Languages I've used the most</h1>
       </Slide>

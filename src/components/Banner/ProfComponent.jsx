@@ -11,9 +11,9 @@ const ProfComponent = () => {
       <Slide direction="left">
         <Texts>
           <h4>
-            Hello <span className="blue">My name is</span>
+            Hello <span className="purple">My name is</span>
           </h4>
-          <h1 className="blue">Alexa Basurto Flores</h1>
+          <h1 className="purple">Alexa Basurto Flores</h1>
           <h3>Engineer in Computer Science and Technology</h3>
           <p>
             I am pursuing a B.S. in Computer Science and Technology.
@@ -99,13 +99,13 @@ const Texts = styled.div`
     padding: 0.7rem 2rem;
     margin-top: 3rem;
     cursor: pointer;
-    background-color: #2272FF;
+    background-color: #995FA3;
     border: none;
     color: #fff;
     font-weight: 500;
-    filter: drop-shadow(0px 10px 10px #2272FF51);
+    filter: drop-shadow(0px 10px 10px #995FA351);
     :hover {
-      filter: drop-shadow(0px 10px 10px #2272FF70);
+      filter: drop-shadow(0px 10px 10px #995FA370);
     }
   }
 `;
@@ -129,7 +129,7 @@ const Social = styled.div`
       width: 2.3rem;
       height: 2rem;
       clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-      background-color: #2272FF70;
+      background-color: #995FA370;
       position: relative;
       transition: transform 400ms ease-in-out;
       :hover {
@@ -149,7 +149,7 @@ const Social = styled.div`
 const Profile = styled.div`
   img {
     width: 25rem;
-    filter: drop-shadow(0px 10px 10px #2272FF70);
+    filter: drop-shadow(0px 10px 10px #995FA370);
     transition: transform 400ms ease-in-out;
     @media (max-width: 790px) {
       width: 20rem;

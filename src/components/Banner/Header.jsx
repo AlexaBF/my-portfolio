@@ -1,13 +1,12 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-
 import { MdHexagon } from "react-icons/md";
 const Header = () => {
     const [bar, setBar] = useState(false);
   return (
     <Container bar={bar}>
         <Logo>
-            <span className='blue'><MdHexagon/></span>
+            <span className='purple'><MdHexagon/></span>
             <h1>Portfolio</h1>
         </Logo>
         <Nav bar={bar}>
@@ -100,7 +99,7 @@ const Nav = styled.div`
         position: fixed;
         display: flex;
         flex-direction: column;
-        background-color: #2272FF;
+        background-color: #995FA3;
         inset: 0;
         justify-content: center;
         align-items: center;
