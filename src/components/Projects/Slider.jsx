@@ -3,35 +3,40 @@ import Slider from 'react-slick';
 import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
+import ima1 from '../files/BAMXweb.png';
+import ima2 from '../files/KAMA_KART.png';
+import ima3 from '../files/BAMXapp.png';
+import ima4 from '../files/minsait.png';
+import ima5 from '../files/AMK.png';
 
 let data = [
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
+        img : ima1,
         description: "BAMX webpage",
         disc : "A webpage to digitize and speed up the process of recollection of the food bank in Morelos ",
         viewing: "sa"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324124/Yt-portfolio/ui5_mnvdaw.png",
+        img : ima2,
         description: "Project KAMA-Kart",
         disc : "Video game where the user interacts with AI serving as a moderator to keep the AI satisfied",
         viewing: ""
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
+        img : ima3,
         description: "BAMX app",
         disc : "Mobile app for android users to digitize and facilitate the recollection of donated products to the food bank in Morelos.",
         viewing: "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png"
 
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
+        img : ima4,
         description: "MINSAIT",
         disc : "Video game that evaluates the soft skills of an eligible candidate for a job in MINSAIT.",
         viewing: "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png"
     },
     {
-        img : "c",
+        img : ima5,
         description: "Project AMK",
         disc : "Monitor a plant's humidity, temperature, and sun exposure through a web page.",
         viewing : "c"

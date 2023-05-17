@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
 
-
 const Project = (props) => {
     const { img, description,disc,viewing } = props.item;
   return (
