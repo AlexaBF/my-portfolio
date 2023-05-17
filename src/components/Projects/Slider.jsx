@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
-import ima1 from '../files/BAMXweb.png';
-import ima2 from '../files/KAMA_KART.png';
-import ima3 from '../files/BAMXapp.png';
-import ima4 from '../files/minsait.png';
-import ima5 from '../files/AMK.png';
+import ima1 from '../files/project_img/BAMXweb.png';
+import ima2 from '../files/project_img/KAMA_KART.png';
+import ima3 from '../files/project_img/BAMXapp.png';
+import ima4 from '../files/project_img/minsait.png';
+import ima5 from '../files/project_img/AMK.png';
 
 let data = [
     {
