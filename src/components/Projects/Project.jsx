@@ -9,7 +9,7 @@ const Project = (props) => {
         <div className="disc">
             <h1>{description}</h1>
             <p>{disc}
-            <a  href={viewing} style={{color: '#8377D1'}}>More Info</a>
+            <a  href={viewing} style={{color: '#8377D1'}} target="_blank" rel="noopener noreferrer">More Info</a>
             </p>
         </div>
     </Container>

@@ -4,6 +4,7 @@ import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 import ima1 from '../files/project_img/BAMXweb.png';
+import pdf1 from '../files/project_pdf/projects.pdf'
 import ima2 from '../files/project_img/KAMA_KART.png';
 import ima3 from '../files/project_img/BAMXapp.png';
 import ima4 from '../files/project_img/minsait.png';
@@ -14,7 +15,7 @@ let data = [
         img : ima1,
         description: "BAMX webpage",
         disc : "A webpage to digitize and speed up the process of recollection of the food bank in Morelos ",
-        viewing: "sa"
+        viewing: pdf1
     },
     {
         img : ima2,
