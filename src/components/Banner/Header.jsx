@@ -98,7 +98,7 @@ const Nav = styled.div`
         position: fixed;
         display: flex;
         flex-direction: column;
-        background-color: #995FA3;
+        background-color: #8377D1;
         inset: 0;
         justify-content: center;
         align-items: center;

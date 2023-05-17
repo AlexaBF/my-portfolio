@@ -214,7 +214,7 @@ const Profile = styled.div`
 const ArrowUp = styled.div`
   width: 2rem;
   height: 2rem;
-  background-color: #995FA3;
+  background-color: #8377D1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,13 +270,13 @@ const Form = styled.div`
     button {
       width: 5rem;
       height: 1.8rem;
-      background-color: #995FA3;
+      background-color: #8377D1;
       border: none;
       border-radius: 5px;
-      filter: drop-shadow(0px 4px 5px #995FA351);
+      filter: drop-shadow(0px 4px 5px #8377D151);
       cursor: pointer;
       :hover {
-        filter: drop-shadow(0px 6px 9px #995FA351);
+        filter: drop-shadow(0px 6px 9px #8377D151);
       }
     }
   }
