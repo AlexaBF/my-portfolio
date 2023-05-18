@@ -93,10 +93,10 @@ const Clients = () => {
             <Buttons>
                 <button
                 onClick={() => arrowRef.current.slickPrev()}
-                ><IoIosArrowBack/></button>
+                ><IoIosArrowBack style={{height:'1.25rem',width:'1.25rem'}}/></button>
                 <button
                 onClick={() => arrowRef.current.slickNext()}
-                ><IoIosArrowForward/></button>
+                ><IoIosArrowForward style={{height:'1.25rem',width:'1.25rem'}}/></button>
             </Buttons>
         </Testimonials>
     </Container>
