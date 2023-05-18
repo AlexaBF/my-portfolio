@@ -84,6 +84,4 @@ const Container = styled.div`
         bottom: 0;
     }
 
-    
-
 `

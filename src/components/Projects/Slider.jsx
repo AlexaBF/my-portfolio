@@ -99,10 +99,10 @@ const SliderComp = () => {
       <Buttons>
         <button 
         onClick={() => arrowRef.current.slickPrev()}
-        className='back'><IoIosArrowBack/></button>
-        <button 
+        className='back'><IoIosArrowBack style={{width:'1.5rem',height:'1.5rem'}}/></button>
+        <button
         onClick={() => arrowRef.current.slickNext()}
-        className='next'><IoIosArrowForward/></button>
+        className='next'><IoIosArrowForward style={{width:'1.5rem',height:'1.5rem'}}/></button>
       </Buttons>
     </Container>
   )
@@ -118,7 +118,7 @@ const Buttons = styled.div`
   button{
     width: 2rem;
     height: 2rem;
-    background-color: rgba(255, 255, 255, 0.100);
+    background-color: rgba(80, 80, 80, 0.3);
     cursor: pointer;
     color: #8377D1;
     border: none;
