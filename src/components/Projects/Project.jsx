@@ -1,15 +1,25 @@
 import React from 'react'
 import styled from 'styled-components';
+import Popup from 'reactjs-popup';
 
 const Project = (props) => {
     const { img, description,disc,viewing } = props.item;
+    var w = window.innerWidth;
+    var h = window.innerHeight;
+
   return (
     <Container className='project'>
         <img src={img} alt="project" />
         <div className="disc">
             <h1>{description}</h1>
             <p>{disc}
-            <a  href={viewing} style={{color: '#8377D1'}} target="_blank" rel="noopener noreferrer">More Info</a>
+            <Popup trigger={<button className="button"> More Info </button>} modal>
+                <div className="modal">
+                    <div className="modalContent">
+                        <iframe title="frame" src={viewing} style={{ width:w/2, height:h, border:'3px solid #8377D1'}} frameborder="1" ></iframe>
+                    </div>
+                </div>
+            </Popup>
             </p>
         </div>
     </Container>

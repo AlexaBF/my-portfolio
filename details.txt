@@ -1,7 +1,7 @@
 
 
 ## colors
-blue : #2272FF
+purple : #8377D1
 
 name font family 
 font-family: 'Secular One', sans-serif;
