@@ -7,34 +7,34 @@ import { Slide } from 'react-awesome-reveal';
 
 let clients = [
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 3,
+        name : "CCNA: Introduction to Networks",
+        position : "Cisco",
+        img_url : "https://unitelformacion.com/wp-content/uploads/2014/02/Cisco_CCNA_Logo512.png",
+        link: "https://www.coursera.org/account/accomplishments/certificate/Y4ERD8PGLDY9",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 4,
+        name : "Scrum Fundamentals Certified (SFC™)",
+        position : "SCRUMstudy",
+        img_url : "https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png",
+        link: "https://www.scrumstudy.com/certification/verify?type=SFC&number=830612",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
+        name : "Python for Everybody",
+        position : "Coursera: University of Michigan",
+        img_url : "https://3.bp.blogspot.com/-e-LnrzDUjK8/VUNo_iO1NUI/AAAAAAAAAFc/CBpscZaPOtc/s1600/coursera.png",
+        link:"https://www.coursera.org/account/accomplishments/specialization/certificate/TJ3AHZ4JVRJ9",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
     {
-        name : "John Michel",
-        position : "web developer",
-        img_url : "https://t4.ftcdn.net/jpg/02/90/27/39/360_F_290273933_ukYZjDv8nqgpOBcBUo5CQyFcxAzYlZRW.jpg",
-        stars : 5,
+        name : "Object-Oriented Data Structures in C++",
+        position : "Coursera: University of Illinois",
+        img_url : "https://3.bp.blogspot.com/-e-LnrzDUjK8/VUNo_iO1NUI/AAAAAAAAAFc/CBpscZaPOtc/s1600/coursera.png",
+        link: "https://www.coursera.org/account/accomplishments/certificate/5TQPYUMUTRKQ",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },

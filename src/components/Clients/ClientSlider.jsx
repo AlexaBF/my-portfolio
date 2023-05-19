@@ -1,21 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
-import {IoIosQuote} from "react-icons/io";
-import {AiOutlineStar} from "react-icons/ai";
+
+import {GiDiploma} from "react-icons/gi";
 
 const ClientSlider = (props) => {
-    const {name, position, img_url, stars, disc} = props.item;
+    const {name, position, img_url, disc,link} = props.item;
   return (
     <Container>
         <Header>
-            <span className='quote'><IoIosQuote/></span>
-            <div>
-                {Array(stars).fill().map((_, i) => (
-                    <span className='star' key={i}>
-                        <AiOutlineStar/>
-                    </span>
-                ))}
-            </div>
+            <span>{name}</span>
+            <span className='quote'><GiDiploma/></span>
+            
         </Header>
         <Body>
             {disc}
@@ -23,7 +18,8 @@ const ClientSlider = (props) => {
         <Footer>
             <img src={img_url} alt={name} />
             <div className="details">
-                <h1>{name}</h1>
+                <a href={link} style={{color:'#8377D1'}} target="_blank" rel="noopener noreferrer"><h1>View</h1></a>
+                
                 <p>{position}</p>
             </div>
         </Footer>
@@ -49,10 +45,7 @@ const Header = styled.div`
         opacity: 0.7;
     }
 
-    .star{
-        color: #ffcd3c;
-        font-size: 1.3rem;
-    }
+    
 `
 const Body = styled.p`
     font-size: 0.8rem;

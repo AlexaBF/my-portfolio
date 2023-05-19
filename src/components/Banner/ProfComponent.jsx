@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
-import Pdf from '../files/CV.pdf';
+import Pdf from '../files/Resume.pdf';
 
 const ProfComponent = () => {
   return (
@@ -22,7 +22,7 @@ const ProfComponent = () => {
             🌱 I’m currently learning about XR technologies
           </p>
           <a href={Pdf} target="_blank" rel="noopener noreferrer">
-            <button>My CV</button>
+            <button>My Resume</button>
           </a>
           
           <Social>
