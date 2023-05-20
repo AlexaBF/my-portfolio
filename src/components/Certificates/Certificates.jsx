@@ -11,32 +11,31 @@ let certificates = [
         position : "Cisco",
         img_url : "https://unitelformacion.com/wp-content/uploads/2014/02/Cisco_CCNA_Logo512.png",
         link: "https://www.credly.com/badges/a8ce7bda-58e6-40c9-8507-8cc24db704f5?source=linked_in_profile",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `An entry-level information technology (IT) certification issued by networking hardware company Cisco.
+        The CCNA is designed to validate your knowledge on fundamental networking concepts often requested in networking roles in IT positions.`
     },
     {
         name : "Scrum Fundamentals Certified (SFC™)",
         position : "SCRUMstudy",
         img_url : "https://www.scrumstudy.com/Scrum-Images/brand-logo/badge-SFC.png",
         link: "https://www.scrumstudy.com/certification/verify?type=SFC&number=830612",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `Scrum Fundamentals Certified course is tailored to help anyone interested to know more about Scrum;
+        learn about key concepts in Scrum as defined in the SBOK® Guide; and to get a basic understanding of how Scrum framework works in delivering successful projects.`
     },
     {
         name : "Python for Everybody",
         position : "Coursera: University of Michigan",
         img_url : "https://3.bp.blogspot.com/-e-LnrzDUjK8/VUNo_iO1NUI/AAAAAAAAAFc/CBpscZaPOtc/s1600/coursera.png",
         link:"https://www.coursera.org/account/accomplishments/specialization/certificate/TJ3AHZ4JVRJ9",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `This Specialization builds on the success of the Python for Everybody course and will introduce fundamental programming concepts including data structures,
+         networked application program interfaces, and databases, using the Python programming language.`
     },
     {
         name : "Object-Oriented Data Structures in C++",
         position : "Coursera: University of Illinois",
         img_url : "https://3.bp.blogspot.com/-e-LnrzDUjK8/VUNo_iO1NUI/AAAAAAAAAFc/CBpscZaPOtc/s1600/coursera.png",
         link: "https://www.coursera.org/account/accomplishments/certificate/5TQPYUMUTRKQ",
-        disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-        Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
+        disc : `How to write a program in the C++ language, including how to set up a development environment for writing and debugging C++ code and how to implement data structures as C++ classes.`
     },
 ]
 var settings = {
