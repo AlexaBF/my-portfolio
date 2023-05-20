@@ -15,12 +15,11 @@ const ProfComponent = () => {
           </h4>
           <h1 className="purple">Alexa Basurto Flores</h1>
           <h3>Engineer in Computer Science and Technology</h3>
-          <p>
-            I am pursuing a B.S. in Computer Science and Technology.
-            I'm interested in creating VR and AR experiences as well as the creation of Apps for IOS and Android.
-            📚 I’m currently studying at Instituto Tecnológico de Monterrey
-            🌱 I’m currently learning about XR technologies
-          </p>
+          <div><p>I am pursuing a B.S. in Computer Science and Technology.</p></div>
+          <div><p>I'm interested in creating VR and AR experiences as well as the creation of Apps for IOS and Android.</p></div>
+          <div><p>📚 I’m currently studying at Instituto Tecnológico de Monterrey.</p></div>
+          <div><p>🌱 I’m currently learning about XR technologies.</p></div>
+          
           <a href={Pdf} target="_blank" rel="noopener noreferrer">
             <button>My Resume</button>
           </a>
