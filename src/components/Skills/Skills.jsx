@@ -9,9 +9,9 @@ import styled from "styled-components";
 import Card from "./Card";
 import { Slide } from "react-awesome-reveal";
 
-const Services = () => {
+const Skills = () => {
   return (
-    <Container id="service">
+    <Container id="skills">
       <Slide direction="down">
         <h4>
           My <span className="purple">skills</span>
@@ -66,7 +66,7 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Skills;
 
 const Container = styled.div`
   width: 80%;
