@@ -83,7 +83,10 @@ const Container = styled.div`
   max-width: 1280px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  flex-direction: column; /* Align children vertically */
+  text-align: center;
   @media (max-width: 840px) {
     width: 90%;
   }
@@ -131,12 +134,16 @@ const Profile = styled.div`
   }
 
   .profiles {
+    
     h1 {
       font-size: 1.2rem;
       padding: 1rem 0;
     }
 
     .icons {
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      flex-direction: row; /* Align children vertically */
       display: flex;
       align-items: center;
 
