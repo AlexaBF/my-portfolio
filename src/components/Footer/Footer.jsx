@@ -4,8 +4,7 @@ import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
-import { BsFacebook, BsSlack } from "react-icons/bs";
-import { FiMail, FiPhoneCall } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
 const Footer = () => {
@@ -34,14 +33,6 @@ const Footer = () => {
             <h1>Contact me directly:</h1>
           </Slide>
           <div>
-            <span>
-              <FiPhoneCall />
-            </span>
-            <Slide direction="left">
-              <a href="7771121212">+52 777 112 1212</a>
-            </Slide>
-          </div>
-          <div>
             <Slide direction="left">
               <span>
                 <HiOutlineMailOpen />
@@ -59,32 +50,19 @@ const Footer = () => {
           <div className="icons">
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://github.com/AlexaBF">
                   <AiFillGithub />
                 </a>
               </span>
             </Zoom>
             <Zoom>
               <span>
-                <a href="/">
+                <a href="https://www.linkedin.com/in/alexa-bf/">
                   <AiFillLinkedin />
                 </a>
               </span>
             </Zoom>
-            <Zoom>
-              <span>
-                <a href="/">
-                  <BsFacebook />
-                </a>
-              </span>
-            </Zoom>
-            <Zoom>
-              <span>
-                <a href="/">
-                  <BsSlack />
-                </a>
-              </span>
-            </Zoom>
+            
           </div>
         </div>
         <Fade>
@@ -173,7 +151,7 @@ const Profile = styled.div`
         text-decoration: none;
         color: lightgray;
         :hover {
-          color: purple;
+          color: #8377D1;
         }
       }
     }
@@ -200,7 +178,7 @@ const Profile = styled.div`
         border-radius: 50px;
 
         :hover {
-          background-color: purple;
+          background-color: #8377D1;
         }
 
         a {
