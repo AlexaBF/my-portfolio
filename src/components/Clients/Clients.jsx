@@ -10,7 +10,7 @@ let clients = [
         name : "CCNA: Introduction to Networks",
         position : "Cisco",
         img_url : "https://unitelformacion.com/wp-content/uploads/2014/02/Cisco_CCNA_Logo512.png",
-        link: "https://www.coursera.org/account/accomplishments/certificate/Y4ERD8PGLDY9",
+        link: "https://www.credly.com/badges/a8ce7bda-58e6-40c9-8507-8cc24db704f5?source=linked_in_profile",
         disc : `Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
         Temporibus consequuntur dolores labore natus similique nemo doloribus cum accusantium adipisci maiores.`
     },
