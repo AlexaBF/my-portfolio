@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 import {GiDiploma} from "react-icons/gi";
 
-const ClientSlider = (props) => {
+const CertificateSlider = (props) => {
     const {name, position, img_url, disc,link} = props.item;
   return (
     <Container>
@@ -27,7 +27,7 @@ const ClientSlider = (props) => {
   )
 }
 
-export default ClientSlider
+export default CertificateSlider
 
 const Container = styled.div`
     background: linear-gradient(159deg, rgb(45, 45, 58) 0%, rgb(43, 43, 53) 100%);

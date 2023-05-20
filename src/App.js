@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Header from "./components/Banner/Header";
 import ProfComponent from "./components/Banner/ProfComponent";
-import Clients from "./components/Clients/Clients";
+import Education from "./components/Certificates/Certificates";
 import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
@@ -16,7 +16,7 @@ function App() {
       <LightColor>
         <Projects />
       </LightColor>
-      <Clients />
+      <Education />
       <LightColor>
         <Contact />
       </LightColor>

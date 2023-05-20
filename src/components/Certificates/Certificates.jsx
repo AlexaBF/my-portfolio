@@ -1,11 +1,11 @@
 import React, { useRef } from 'react'
 import Slider from 'react-slick'
 import styled from 'styled-components'
-import ClientSlider from './ClientSlider';
+import CertificateSlider from './CertificateSlider';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { Slide } from 'react-awesome-reveal';
 
-let clients = [
+let certificates = [
     {
         name : "CCNA: Introduction to Networks",
         position : "Cisco",
@@ -74,21 +74,21 @@ var settings = {
       }
     ]}
 
-const Clients = () => {
+const Certificates = () => {
     const arrowRef = useRef(null);
-    let clientDisc = "";
-    clientDisc = clients.map((item, i) => (
-        <ClientSlider item={item} key={i}/>
+    let certificateDisc = "";
+    certificateDisc = certificates.map((item, i) => (
+        <CertificateSlider item={item} key={i}/>
     ))
   return (
-    <Container id='client'>
+    <Container id='education'>
         <Slide direction="left">
             <span className="purple">Education</span>
             <h2>and Certificates</h2>
         </Slide>
         <Testimonials>
             <Slider ref={arrowRef} {...settings}>
-                {clientDisc}
+                {certificateDisc}
             </Slider>
             <Buttons>
                 <button
@@ -103,7 +103,7 @@ const Clients = () => {
   )
 }
 
-export default Clients
+export default Certificates
 
 const Container = styled.div`
     width: 80%;
