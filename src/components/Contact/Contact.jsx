@@ -4,7 +4,7 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
-const Footer = () => {
+const Contact = () => {
   const scrollUp = () => {
     window.scroll({
       top: 0,
@@ -12,7 +12,7 @@ const Footer = () => {
     });
   };
   return (
-    <Container id="footer">
+    <Container id="contact">
       <Profile>
         <Slide direction="left" delay={1}>
           <h1>Portfolio</h1>
@@ -73,7 +73,7 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contact;
 
 const Container = styled.div`
   margin-top: 2rem;
