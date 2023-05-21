@@ -22,7 +22,7 @@ const Contact = () => {
             <h1>Address:</h1>
           </Slide>
           <Slide direction="left">
-            <p>Morelos, México</p>
+            <h4>Cuernavaca, Morelos, México</h4>
           </Slide>
         </div>
         <div className="links">
@@ -36,7 +36,7 @@ const Contact = () => {
               </span>
             </Slide>
             <Slide>
-              <a href="mailto:basurto.alexa@gmail.com">basurto.alexa@gmail.com</a>
+              <h4><a href="mailto:basurto.alexa@gmail.com">basurto.alexa@gmail.com</a></h4>
             </Slide>
           </div>
         </div>
