@@ -4,11 +4,15 @@ import Project from './Project';
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 import ima1 from '../files/project_img/BAMXweb.png';
-import pdf1 from '../files/project_pdf/projects.pdf'
+import pdf1 from '../files/project_pdf/BAMXweb.pdf'
 import ima2 from '../files/project_img/KAMA_KART.png';
+import pdf2 from '../files/project_pdf/KAMA_KART.pdf';
 import ima3 from '../files/project_img/BAMXapp.png';
+import pdf3 from '../files/project_pdf/BAMXapp.pdf';
 import ima4 from '../files/project_img/minsait.png';
+import pdf4 from '../files/project_pdf/minsait.pdf';
 import ima5 from '../files/project_img/AMK.png';
+import pdf5 from '../files/project_pdf/AMK.pdf';
 
 let data = [
     {
@@ -21,26 +25,26 @@ let data = [
         img : ima2,
         description: "Project KAMA-Kart",
         disc : "Video game where the user interacts with AI serving as a moderator to keep the AI satisfied",
-        viewing: ""
+        viewing: pdf2
     },
     {
         img : ima3,
         description: "BAMX app",
         disc : "Mobile app for android users to digitize and facilitate the recollection of donated products to the food bank in Morelos.",
-        viewing: "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png"
+        viewing: pdf3
 
     },
     {
         img : ima4,
         description: "MINSAIT",
         disc : "Video game that evaluates the soft skills of an eligible candidate for a job in MINSAIT.",
-        viewing: "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png"
+        viewing: pdf4
     },
     {
         img : ima5,
         description: "Project AMK",
         disc : "Monitor a plant's humidity, temperature, and sun exposure through a web page.",
-        viewing : "c"
+        viewing : pdf5
 
     }
 ];
