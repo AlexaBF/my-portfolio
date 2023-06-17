@@ -14,11 +14,12 @@ const ProfComponent = () => {
             Hello <span className="purple">My name is</span>
           </h4>
           <h1 className="purple">Alexa Basurto Flores</h1>
-          <h3>Engineer in Computer Science and Technology</h3>
-          <div><p>I am pursuing a B.S. in Computer Science and Technology.</p></div>
-          <div><p>I'm interested in creating VR and AR experiences as well as the creation of Apps for IOS and Android.</p></div>
-          <div><p>📚 I’m currently studying at Instituto Tecnológico de Monterrey.</p></div>
+          <h3>Software Developer</h3>
+          <div><p>I have a B.S. in Computer Science and Technology.</p></div>
+          <div><p>I am interested in creating digital experiences such as mobile apps, web pages, AR apps, and game development.
+Programming languages and tools frequently featured in my projects are C++, Python, Unity, MySQL, and Postman.</p></div>
           <div><p>🌱 I’m currently learning about XR technologies.</p></div>
+          <div><p>I am curious to see the effect of XR technologies in the future an the impact it will have in our daily life.</p></div>
           
           <a href={Pdf} target="_blank" rel="noopener noreferrer">
             <button>My CV</button>
