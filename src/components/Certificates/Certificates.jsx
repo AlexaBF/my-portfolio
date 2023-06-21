@@ -7,6 +7,14 @@ import { Slide } from 'react-awesome-reveal';
 
 let certificates = [
     {
+        name : "Extended Reality for Everybody",
+        position : "Coursera: University of Michigan",
+        img_url: "https://3.bp.blogspot.com/-e-LnrzDUjK8/VUNo_iO1NUI/AAAAAAAAAFc/CBpscZaPOtc/s1600/coursera.png",
+        link : "https://coursera.org/share/3bb6651bfbcdcbe98902ddfb759b0fdf",
+        disc: `This specialization is designed to be a broad learning experience around all things augmented, virtual, and mixed reality.
+        The 3 courses cover the fundamental concepts of XR, how to design and develop XR applications, how to discuss the emerging key issues in the landscape of XR, and how to bring XR into instructional settings.`
+    },
+    {
         name : "CCNA: Introduction to Networks",
         position : "Cisco",
         img_url : "https://unitelformacion.com/wp-content/uploads/2014/02/Cisco_CCNA_Logo512.png",
@@ -26,7 +34,7 @@ let certificates = [
         name : "Python for Everybody",
         position : "Coursera: University of Michigan",
         img_url : "https://3.bp.blogspot.com/-e-LnrzDUjK8/VUNo_iO1NUI/AAAAAAAAAFc/CBpscZaPOtc/s1600/coursera.png",
-        link:"https://www.coursera.org/account/accomplishments/specialization/certificate/TJ3AHZ4JVRJ9",
+        link:"https://coursera.org/share/0f2fb6ad19f40b3c52debf3df9e32b3e",
         disc : `This Specialization builds on the success of the Python for Everybody course and will introduce fundamental programming concepts including data structures,
          networked application program interfaces, and databases, using the Python programming language.`
     },
@@ -34,7 +42,7 @@ let certificates = [
         name : "Object-Oriented Data Structures in C++",
         position : "Coursera: University of Illinois",
         img_url : "https://3.bp.blogspot.com/-e-LnrzDUjK8/VUNo_iO1NUI/AAAAAAAAAFc/CBpscZaPOtc/s1600/coursera.png",
-        link: "https://www.coursera.org/account/accomplishments/certificate/5TQPYUMUTRKQ",
+        link: "https://coursera.org/share/b9809bce3958f8f4c13933384b069971",
         disc : `How to write a program in the C++ language, including how to set up a development environment for writing and debugging C++ code and how to implement data structures as C++ classes.`
     },
 ]
