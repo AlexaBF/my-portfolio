@@ -47,7 +47,7 @@ Programming languages and tools frequently featured in my projects are C++, Pyth
       <Slide direction="right">
         <Profile>
           <img
-            src="https://media.licdn.com/dms/image/C4E03AQGpsRe3DeRJUg/profile-displayphoto-shrink_400_400/0/1648145491682?e=1689206400&v=beta&t=MnALh2QJdLk6uzKLnSHajx_Dx5P3qwZjS15xhBIXoco"
+            src="https://media.licdn.com/dms/image/D4E03AQETVB9FYbyjBQ/profile-displayphoto-shrink_400_400/0/1687981919794?e=1693440000&v=beta&t=WKC5_7mAeY52J_fB_mA-DupkQX3w3JWiRnAcGvh8mNk  "
             alt="profile"
           />
         </Profile>
