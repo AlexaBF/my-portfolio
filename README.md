@@ -1,13 +1,6 @@
 
-## Portfolio using React js and styled-components 2023
+## Portfolio using React js and styled-components
 
-
-## Features
-
-- Animated navbar
-- Slider
-- Animation on scroll
-- Responsive
 
 ## Technologies 
 
