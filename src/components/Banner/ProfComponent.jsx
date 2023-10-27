@@ -11,7 +11,7 @@ const ProfComponent = () => {
       <Slide direction="left">
         <Texts>
           <h4>
-            Hello <span className="purple">My name is</span>
+            Hello, <span className="purple">My name is</span>
           </h4>
           <h1 className="purple">Alexa Basurto Flores</h1>
           <h3>Software Developer</h3>
@@ -19,7 +19,7 @@ const ProfComponent = () => {
           <div><p>I am interested in creating digital experiences such as mobile apps, web pages, AR apps, and game development.
 Programming languages and tools frequently featured in my projects are C++, Python, Unity, MySQL, and Postman.</p></div>
           <div><p>🌱 I’m currently learning about XR technologies.</p></div>
-          <div><p>I am curious to see the effect of XR technologies in the future an the impact it will have in our daily life.</p></div>
+          <div><p>I am curious to see the effect of XR technologies in the future and the impact it will have on our daily lives.</p></div>
           
           <a href={Pdf} target="_blank" rel="noopener noreferrer">
             <button>My CV</button>
@@ -45,12 +45,7 @@ Programming languages and tools frequently featured in my projects are C++, Pyth
         </Texts>
       </Slide>
       <Slide direction="right">
-        <Profile>
-          <img
-            src="https://media.licdn.com/dms/image/D4E03AQETVB9FYbyjBQ/profile-displayphoto-shrink_800_800/0/1687981919794?e=1702512000&v=beta&t=zimIKwf4Mk9BZoGsWUk_2gikuraC2bG1EYc9GTv_wFA"
-            alt="profile"
-          />
-        </Profile>
+        
       </Slide>
      </Container>
   );

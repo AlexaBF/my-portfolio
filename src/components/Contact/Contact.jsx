@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { FaFlag } from "react-icons/fa";
 import { HiOutlineMailOpen } from "react-icons/hi";
 import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp } from "react-icons/ai";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
@@ -19,23 +20,18 @@ const Contact = () => {
         </Slide>
         <div className="address">
           <Slide direction="left">
-            <h1>Address:</h1>
+            <h1><FaFlag /> Address:</h1>
           </Slide>
           <Slide direction="left">
-            <h4>Cuernavaca, Morelos, México</h4>
+            <h4>México</h4>
           </Slide>
         </div>
         <div className="links">
           <Slide direction="left">
-            <h1>Contact me directly:</h1>
+            <h1><HiOutlineMailOpen /> Contact me directly:</h1>
           </Slide>
           <div>
             <Slide direction="left">
-              <span>
-                <HiOutlineMailOpen />
-              </span>
-            </Slide>
-            <Slide>
               <h4><a href="mailto:basurto.alexa@gmail.com">basurto.alexa@gmail.com</a></h4>
             </Slide>
           </div>
@@ -63,12 +59,15 @@ const Contact = () => {
           </div>
         </div>
         <Fade>
+          
           <ArrowUp onClick={scrollUp}>
             <AiOutlineArrowUp />
           </ArrowUp>
+            <h5>© 2023 by Alexa Basurto</h5>
+
         </Fade>
       </Profile>
-      
+
     </Container>
   );
 };
