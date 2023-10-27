@@ -59,12 +59,9 @@ const Contact = () => {
           </div>
         </div>
         <Fade>
-          
           <ArrowUp onClick={scrollUp}>
             <AiOutlineArrowUp />
           </ArrowUp>
-            <h5>© 2023 by Alexa Basurto</h5>
-
         </Fade>
       </Profile>
 
