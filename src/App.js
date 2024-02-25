@@ -20,7 +20,7 @@ function App() {
       <LightColor>
         <Contact />
       </LightColor>
-      <h5 style={{textAlign: 'center'}}>© 2023 by Alexa Basurto</h5>
+      <h5 style={{textAlign: 'center'}}>© 2024 by Alexa Basurto</h5>
     </Container>
   );
 }
